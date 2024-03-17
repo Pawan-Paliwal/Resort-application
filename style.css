@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nova+Square&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Flamenco:wght@300;400&family=Inter:wght@100..900&family=Nova+Square&family=Pacifico&display=swap");
+
+.about-us {
+  text-align: center;
+}
+.about-pic {
+  background-image: url("./banner1.jpg");
+  background-size: 100% 400px;
+  text-align: center;
+  padding-top: 12px;
+}
+.welcome {
+  padding-bottom: 15px;
+  margin-top: 23px;
+  font-size: 16px;
+  font-family: "Nova Square", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hover-e {
+  cursor: pointer;
+  margin: 2em 0 0em;
+  line-height: 2em;
+  color: #999;
+  font-size: 0.875em;
+}
+.hover-e:hover {
+  color: #976107;
+}
+.para-again {
+  text-align: center;
+}
+.about-about {
+  color: #976107;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+.second-para {
+  width: 77%;
+}
+.about-pic span {
+  background-color: #976107;
+}
+.about-pic h3 {
+  color: white;
+  font-size: 51px;
+  font-weight: 700;
+}
+.about-para {
+  display: flex;
+  justify-content: center;
+}
+.about-para p {
+  line-height: 1.4em;
+  margin: 0 0 12px;
+  font-size: 1em;
+  color: #666;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+}
+.about-pic-banner {
+  width: 100%;
+  height: 400px;
+}
+.about-pic {
+  height: 400px;
+}
+
+.card {
+  height: 18rem;
+  width: 100%;
+  margin: 20px 4px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  cursor: pointer;
+  width: 100%;
+  height: 12rem;
+  display: block;
+}
+.card img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.card-content {
+  padding: 20px;
+}
+.card-content span {
+  position: relative;
+  top: 7px;
+}
+.btn-card:hover {
+  background-color: #0056b3;
+}
+.card-content a {
+  color: #666;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.card-content a:hover {
+  color: #976107;
+}
+.rooms-set {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  margin-top: 37px;
+}
+.expand-div {
+  width: 70%;
+}
+.room-dis p {
+  font-size: 28px;
+  font-family: "Flamenco", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 0;
+}
+.card-display-img {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.line-img {
+  height: 25px;
+  width: 175px;
+}
+.about-all {
+  display: flex;
+  justify-content: center;
+}
+.center {
+  display: flex;
+}
+.rounded-start {
+  width: 40vw;
+  height: 219px;
+  border-radius: 5px;
+}
+.blue-lo {
+  color: #3d81bb;
+  margin: 8px 0;
+  text-decoration: none;
+}
+.about-card-display-img {
+  display: flex;
+}
+.top {
+  position: relative;
+  top: 7px;
+}
+.vision {
+  margin-top: 43px;
+  width: 75%;
+}
+.vission-div {
+  display: flex;
+  justify-content: center;
+}
+.agileits_welcome_grid_left h3,
+.wthree-heading h3 {
+  font-size: 2.5em;
+  color: #ff9800;
+  margin: 0;
+  letter-spacing: 2px;
+  font-family: "Pacifico", cursive;
+}
+.agileits_welcome_grid_left h5 {
+  font-size: 1em;
+  margin: 1em 0 0 0;
+  line-height: 1.8em;
+  color: #000000;
+  font-weight: 600;
+}
+.agileits_welcome_grid_left p {
+  margin: 2em 0 0em;
+  line-height: 2em;
+  color: #999;
+  font-size: 0.875em;
+}
+.welcome-about {
+  padding: 5em 0;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  display: flex;
+  margin-top: 69px;
+}
+.w3-services-grids{
+  display: flex;
+}
+.agileits-title {
+  text-align: center;
+}
+.agileits-title h3 {
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
+  display: inline-block;
+  border: 1px solid #dadada;
+  padding: 0.3em 0.5em;
+  letter-spacing: 5px;
+  color: #333;
+}
+.w3l-services-grid {
+  text-align: center;
+}
+.w3ls-services-img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.w3ls-services-img i.fa {
+  color: #d2d2d2;
+  font-size: 4em;
+  padding: 0.4em 0 0 0;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.agileits-services-info h4 {
+  color: #333;
+  font-size: 1.5em;
+  margin: 0.8em 0;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+P {
+  font-size: 1em;
+  color: #777;
+  line-height: 1.8em;
+}
+@media screen and (max-width: 500px) {
+  .about-about {
+    font-size: 22px;
+  }
+  .second-para {
+    width: 100%;
+  }
+  .blue-lo {
+    font-size: 17px;
+  }
+  .center {
+    flex-wrap: wrap;
+  }
+  .g-0 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 757px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .about-card-display-img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
